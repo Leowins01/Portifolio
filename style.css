@@ -85,7 +85,7 @@ header {
 .base {
     background-color: hsl(240,3%,20%);
     color: #fff;
-    width: 80%;
+    width: 50%;
     height: auto;
     margin: auto;
     margin-top: 10rem;
@@ -186,6 +186,18 @@ header {
 }
 
 #perfil img{
-    width: 8rem;
+    width: 5rem;
     border-radius: 50%;
+}
+
+@media (max-width: 420px) {
+    #perfil img{
+        width: 5rem;
+        border-radius: 50%;
+        margin-left: -2rem;
+    }
+
+    main {
+        background-color: red;
+    }
 }
