@@ -190,7 +190,7 @@ header {
     border-radius: 50%;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
     #perfil img{
         width: 5rem;
         border-radius: 50%;
